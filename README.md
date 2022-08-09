@@ -10,7 +10,7 @@ How to run
 
 This is a next.js based project
 
-Ensure You have require database and tables mentioned in schema.sql
+Ensure You have require database and tables mentioned in `schema.sql`
 
 To run: `npm run dev`
 
