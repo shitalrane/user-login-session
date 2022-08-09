@@ -4,3 +4,14 @@
 3. After login create a navbar displaying the remaining time for the user on the center of the page which should be updated after every 5 seconds. On the top-left of the page display a greeting message for the user with his/her name. And on the top-right provide a log-out button which a user can use to log out anytime he wants.
 4.  In the home page body, provide a text box and a submit button. The user can write any message in that text box and hit submit button. The submit button will save his/her response. After submission, the user should log out immediately and his/her session should be cleared.  
 5. If a user logs in with the name `admin`, email `admin@admin.com` and mobile `0000000000` then after login, show a table containing data for all the previous logins with columns Name, Email, Mobile Number, and Response.
+
+
+How to run
+
+This is a next.js based project
+
+Ensure You have require database and tables mentioned in schema.sql
+
+To run: `npm run dev`
+
+Login Page: http://localhost:3000/login
