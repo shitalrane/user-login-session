@@ -1,4 +1,7 @@
 # user-login-session
+
+# In this project I tried to handle below problems,
+
 1. On the Login page create a login form, ask for Name, Email, and Mobile Number, and after successful submission log in. Save that provided info into the database along with the time of login.
 2.  After login in the first step, create a session and let the user log in for 10 minutes and then automatically log out and clear the session. If the session is over, the same user with the same Name, Email, or Mobile Number should not be allowed to login back. For each login, all three have to be different. If the session is not over let the user continue with the remaining time. 
 3. After login create a navbar displaying the remaining time for the user on the center of the page which should be updated after every 5 seconds. On the top-left of the page display a greeting message for the user with his/her name. And on the top-right provide a log-out button which a user can use to log out anytime he wants.
